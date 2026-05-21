@@ -88,7 +88,7 @@ const Clients = memo(() => {
           transition={{ duration: 0.8 }}
           className="bg-transparent border border-white/10 rounded-lg p-6 sm:p-8 md:p-12 backdrop-blur-sm"
         >
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6 md:gap-8">
+          <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-6 md:gap-8">
             {clients.map((client, i) => (
               <motion.div
                 key={client.name}
@@ -99,13 +99,13 @@ const Clients = memo(() => {
                 className="group relative"
               >
                 <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-primary/0 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                <div className="relative bg-transparent border border-white/10 rounded-lg p-4 sm:p-6 md:p-8 text-center hover:border-primary/50 hover:bg-white/[0.05] transition-all duration-300 group-hover:shadow-[0_0_20px_hsl(var(--primary)/0.1)] flex items-center justify-center h-[150px] sm:h-[180px] md:h-[200px]">
+                <div className="relative bg-transparent border border-white/10 rounded-lg p-3 sm:p-6 md:p-8 text-center hover:border-primary/50 hover:bg-white/[0.05] transition-all duration-300 group-hover:shadow-[0_0_20px_hsl(var(--primary)/0.1)] flex items-center justify-center h-[140px] sm:h-[180px] md:h-[200px]">
                   <div className="relative w-full h-full flex items-center justify-center">
                     <Image
                       src={client.logo}
                       alt={client.name}
                       fill
-                      sizes="(max-width: 640px) 100px, (max-width: 1024px) 120px, 150px"
+                      sizes="(max-width: 640px) 140px, (max-width: 1024px) 160px, 180px"
                       className="object-contain px-2 sm:px-3"
                       loading="lazy"
                       quality={85}
