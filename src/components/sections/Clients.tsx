@@ -3,52 +3,56 @@ import { motion } from "framer-motion";
 
 const clients = [
   {
-    name: "Maharashtra Shasan",
-    logo: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-YcwlSWCUZ8ZgRme6SPHqPvnu9Id6bh.png",
+    name: "AppDirect",
+    logo: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-jtQyYy87pevG7tny4mjHWSqtiTL2EX.png",
   },
   {
-    name: "Maharashtra Tourism",
-    logo: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-0xs6rYgBjNTntla0E9eYUePUWsu5Kh.png",
-  },
-  {
-    name: "Audible",
-    logo: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-NseqnN7bc7sE5mpJT3XTjieAnmd9b3.png",
-  },
-  {
-    name: "Finolex Pipes",
-    logo: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-TNQt83cp5twkEQQu86Xymx4CGC0U7r.png",
+    name: "FinOlex Pipes",
+    logo: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-lCknjauIszgjMVCRbwpzowo0YANGlQ.png",
   },
   {
     name: "Rhyfil",
-    logo: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-paKJPB3gW7348LVQbNkoOEfozne6f9.png",
+    logo: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-B8HFCGTzYLk6fz6bTZHUyf0sewuX9T.png",
   },
   {
-    name: "AppDirect India",
-    logo: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-yGneudVcskJQwVlNr2EUfBFJOKJMcf.png",
+    name: "Symbiosis International University",
+    logo: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-rLktMDT5dOvqThWqCMw5rpsyMkSOwe.png",
   },
   {
-    name: "Teradata India",
-    logo: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-Hgj9CJKtmSCFl6wC6f2VZyp6YZ8N1U.png",
+    name: "Maharashtra Shasan",
+    logo: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-15CBI9ldBNNdQRyEmsC264fMj8a1Kz.png",
   },
   {
-    name: "Snovel",
-    logo: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-sIjkJJajpFFuslYn0yogprQ0CK1rBW.png",
+    name: "Maharashtra Tourism",
+    logo: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-GoQL3WgC21oFStbcq2LrSYMUgfpv1Y.png",
   },
   {
-    name: "Zee Music Marathi",
-    logo: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-32xdv5TRmxy6U4XVN7fNx9elWRKnoT.png",
+    name: "Nashik Municipal Corporation",
+    logo: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-QQMLgmPw0058wE7otqxqXzqbqtUyt8.png",
+  },
+  {
+    name: "Teradata",
+    logo: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-2YW795FMyO0FS55mNDB2oLJvV2Ig1p.png",
+  },
+  {
+    name: "Planet Marathi",
+    logo: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-a1YKFFSJOxJLY2Pv48TwPRBSwSZrTY.png",
   },
   {
     name: "Symbiosis SSOU",
-    logo: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-6lUMzn5vhqnpIgYtnMgCud3Ew4yIQR.png",
+    logo: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-KPdb3OMaa8gciRWEbVqejh8hPt6xhn.png",
   },
   {
-    name: "Nanded Waghala Municipal Corp",
-    logo: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-7Hr0lkXKPzDM7MGYseR42w6epGStzr.png",
+    name: "Election Commission",
+    logo: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-xTifiS5UlDKR1WDQ4ZYJK2GnFCKSRz.png",
   },
   {
-    name: "Gurukul Public School",
-    logo: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-7Hr0lkXKPzDM7MGYseR42w6epGStzr.png",
+    name: "Audible",
+    logo: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-fBRJJnfhUh5KcnkoISeHuZuqYM7Mh8.png",
+  },
+  {
+    name: "Zee Music Co. Marathi",
+    logo: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-gGXcYNQMUpVGXgtvE10bI54DBM2Dlq.png",
   },
 ];
 
