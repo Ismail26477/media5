@@ -1,4 +1,5 @@
 import { memo } from "react";
+import Image from "next/image";
 import { motion } from "framer-motion";
 
 const clients = [
@@ -98,12 +99,16 @@ const Clients = memo(() => {
                 className="group relative"
               >
                 <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-primary/0 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                <div className="relative bg-transparent border border-white/10 rounded-lg p-4 sm:p-6 md:p-8 text-center hover:border-primary/50 hover:bg-white/[0.05] transition-all duration-300 group-hover:shadow-[0_0_20px_hsl(var(--primary)/0.1)] flex items-center justify-center min-h-[150px] sm:min-h-[180px] md:min-h-[200px]">
-                  <div className="w-full h-full flex items-center justify-center">
-                    <img
+                <div className="relative bg-transparent border border-white/10 rounded-lg p-4 sm:p-6 md:p-8 text-center hover:border-primary/50 hover:bg-white/[0.05] transition-all duration-300 group-hover:shadow-[0_0_20px_hsl(var(--primary)/0.1)] flex items-center justify-center h-[150px] sm:h-[180px] md:h-[200px]">
+                  <div className="relative w-full h-full flex items-center justify-center">
+                    <Image
                       src={client.logo}
                       alt={client.name}
-                      className="max-w-full max-h-full object-contain px-2 sm:px-3"
+                      fill
+                      sizes="(max-width: 640px) 100px, (max-width: 1024px) 120px, 150px"
+                      className="object-contain px-2 sm:px-3"
+                      loading="lazy"
+                      quality={85}
                     />
                   </div>
                 </div>
